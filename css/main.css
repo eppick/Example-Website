@@ -1,0 +1,109 @@
+/* Main CSS for whole site */
+
+/* Basic sitewide styles */
+body {
+	font-family: 'Open Sans', sans-serif;
+	margin: 0;
+	background: #F7F7F7;
+	color: #6B6B6B;
+}
+.header {
+	background: white;
+	margin: 0;
+	width: 100%;
+	top: 0;
+	height: 70px;
+	border-bottom: 1px solid #BABABA;
+}
+
+
+.header h1 {
+	padding-left: 15%;
+	float: left;
+	margin: 10px;
+	font-size: 35px;
+}
+.header .profile {
+	width: 50px;
+	float: right;
+	margin-right: 30px;
+	margin-top: 10px;
+	border: 1px solid #E8E8E8;
+	border-radius: 5px;
+}
+.header .profile:hover {
+	background: #E8E8E8;
+}
+.body {
+	width: 80%;
+	margin: 40px auto;
+	border: 1px solid #BABABA;
+	border-radius: 5px;
+	padding: 30px;
+}
+
+.body p {
+	text-align: center;
+}
+
+/* All link style tags */
+
+a {
+	color: #6B6B6B;
+	text-decoration: none;
+	transition: 0.5s all ease;
+}
+a:hover {
+	color: #404040;
+}
+
+/* All ul, li, and ol styles and nav styles */
+
+.header .navbar {
+	float: right;
+	top: 0;
+	display: inline-block;
+	margin-top: 22px;
+	margin-right: 2%;
+}
+
+.header .navbar li {
+	list-style: none;
+	display: inline-block;
+	padding-right: 50px;
+	font-size: 18px;
+}
+
+/* Other things on website */
+
+h3 {
+	text-align: center;
+	font-size: 30px;
+}
+
+input {
+	padding: 5px;
+	font-family: 'Open Sans', sans-serif;
+	color: #6B6B6B;
+	border-radius: 3px;
+	border: 1px solid #E8E8E8;
+}
+
+input:focus {
+	border: 1px solid #E8E8E8;
+	outline: 0;
+}
+.me {
+	margin: 20px auto;
+	height: 200px;
+	width: auto;
+	display: block;
+	border: 1px solid #E8E8E8;
+	border-radius: 10px;
+}
+
+
+
+
+
+
